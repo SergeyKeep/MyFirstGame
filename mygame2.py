@@ -29,7 +29,7 @@ def run_game():
     clock = pygame.time.Clock()
     running = True
     SPAWNTARGET = 30
-    pygame.time.set_timer(SPAWNTARGET, 500)
+    pygame.time.set_timer(SPAWNTARGET, 300)
 
     all_sprites = pygame.sprite.Group()
 
